@@ -1,18 +1,18 @@
 {
   "canisters": {
-    "token_completed_backend": {
-      "main": "src/token_completed_backend/main.mo",
+    "token_backend": {
+      "main": "src/token_backend/main.mo",
       "type": "motoko"
     },
-    "token_completed_frontend": {
+    "token_frontend": {
       "dependencies": [
-        "token_completed_backend"
+        "token_backend"
       ],
       "source": [
-        "src/token_completed_frontend/dist"
+        "src/token_frontend/dist"
       ],
       "type": "assets",
-      "workspace": "token_completed_frontend"
+      "workspace": "token_frontend"
     }
   },
   "defaults": {
