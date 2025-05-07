@@ -4,7 +4,7 @@ import HashMap "mo:base/HashMap";
 import Iter "mo:base/Iter";
 
 actor Token {
-  let _owner : Principal = Principal.fromText("<YOUR_CANISTER_ID>");
+  let _owner : Principal = Principal.fromText("<YOUR_PRINCIPAL_ID>");
   let _totalSupply : Nat = 2828282828;
   let _symbol : Text = "BARHAM";
 
