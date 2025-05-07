@@ -69,7 +69,7 @@ const App = (props) => {
 
   return (
     <div>
-      <h1 className="blue windoww">Opend Platform</h1>
+      <h1 className="blue windoww">Exchange Platform</h1>
 
       {!state.isAuthenticated ? (
         <Button onClick={login}>Login with Internet Identity</Button>
